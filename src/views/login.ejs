@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <script>document.documentElement.setAttribute('data-theme', 'light');</script>
+</head>
+<body class="auth-page">
+  <svg class="auth-circuit" viewBox="0 0 1200 800" aria-hidden="true" preserveAspectRatio="none">
+    <path d="M0 180H180L250 250H430M1200 180H1020L950 250H780M0 630H220L300 550H450M1200 630H980L900 550H750" />
+    <path d="M140 0V120L230 210M1060 0V120L970 210M150 800V670L250 570M1050 800V670L950 570" />
+    <circle cx="180" cy="180" r="4" /><circle cx="1020" cy="180" r="4" /><circle cx="220" cy="630" r="4" /><circle cx="980" cy="630" r="4" />
+  </svg>
+
+  <main class="auth-card">
+    <div class="auth-brand">
+      <img class="auth-logo" src="/images/VisionGuard-Logo.png" alt="VisionGuard" />
+      <span class="auth-brand-name">VisionGuard</span>
+    </div>
+    <p class="auth-kicker">Vigilancia con propósito</p>
+    <h1><%= mode === 'login' ? 'Bienvenido de nuevo' : 'Crea tu espacio seguro' %></h1>
+    <p class="auth-copy"><%= mode === 'login' ? 'Monitorea tus cámaras y recibe alertas sólo cuando una zona importa.' : 'Empieza a proteger tu hogar o empresa con tus propias cámaras.' %></p>
+
+    <% if (error) { %><div class="form-error" role="alert"><%= error %></div><% } %>
+
+    <form method="post" action="<%= mode === 'login' ? '/login' : '/register' %>" class="auth-form">
+      <% if (mode === 'register') { %>
+        <div class="auth-field">
+          <input id="name" name="name" required value="<%= values.name || '' %>" placeholder=" " autocomplete="name" />
+          <label for="name">Nombre</label>
+          <svg class="auth-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 21a8 8 0 0 0-16 0M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" /></svg>
+        </div>
+        <label>Tipo de cuenta<select name="accountType"><option value="persona">Persona</option><option value="empresa">Empresa</option></select></label>
+      <% } %>
+      <div class="auth-field">
+        <input id="email" type="email" name="email" required value="<%= values.email || '' %>" placeholder=" " autocomplete="email" />
+        <label for="email">Correo electrónico</label>
+        <svg class="auth-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m4 7 8 6 8-6" /></svg>
+      </div>
+      <div class="auth-field">
+        <input id="password" type="password" name="password" required minlength="8" placeholder=" " autocomplete="<%= mode === 'login' ? 'current-password' : 'new-password' %>" />
+        <label for="password">Contraseña</label>
+        <svg class="auth-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg>
+        <button class="auth-toggle" type="button" data-password-toggle="password" aria-label="Mostrar contraseña">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" /><circle cx="12" cy="12" r="2.5" /></svg>
+        </button>
+      </div>
+      <button class="btn btn-primary auth-submit" type="submit">  <span class="button-label"><%= mode === 'login' ? 'Iniciar sesión' : 'Crear cuenta' %></span></button>
+    </form>
+
+    <p class="auth-switch"><%= mode === 'login' ? '¿Primera vez aquí?' : '¿Ya tienes una cuenta?' %> <a href="<%= mode === 'login' ? '/register' : '/login' %>"><%= mode === 'login' ? 'Crear cuenta' : 'Iniciar sesión' %></a></p>
+    <p class="auth-footnote">VisionGuard · Vigilancia inteligente</p>
+  </main>
+  <script src="/js/ui.js"></script>
+</body>
+</html>

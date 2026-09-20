@@ -1,0 +1,10 @@
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.env
+logs/*.log
+vision-service/videos/
+.DS_Store
+*.mp4
+yolov8n.pt

@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+
+<div class="page-header">
+  <h1>Ajustes de VisionGuard</h1>
+</div>
+
+<section class="panel">
+  <form id="settings-form" class="form-grid">
+    <label>
+      Cooldown de alarma (segundos)
+      <input type="number" name="alarmCooldown" min="0" value="<%= config.alarm.cooldownSeconds %>" />
+    </label>
+    <label>
+      Umbral de personas para alertar
+      <input type="number" name="personThreshold" min="1" value="<%= config.alarm.personThreshold %>" />
+    </label>
+    <label class="checkbox-label">
+      <input type="checkbox" name="voiceEnabled" <%= settings.voiceEnabled ? 'checked' : '' %> />
+      Voz activada
+    </label>
+    <label>
+      Volumen
+      <input type="range" name="volume" min="0" max="1" step="0.1" value="<%= settings.volume %>" />
+    </label>
+    <label>
+      Tono de alarma
+      <select name="alarmSound">
+        <% settings.alarmSounds.forEach(function(sound) { %>
+          <option value="<%= sound %>" <%= sound === settings.alarmSound ? 'selected' : '' %>><%= sound %></option>
+        <% }) %>
+      </select>
+    </label>
+    <button type="submit" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h12l2 2v14H5V4ZM8 4v6h8V4M8 16h8" /></svg><span>Guardar ajustes</span></button>
+  </form>
+</section>
+
+<script src="/js/dashboard.js"></script>
+<%- include('partials/footer') %>

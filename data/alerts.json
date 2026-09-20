@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "mu7ujz5knqu12",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:43.928Z"
+  },
+  {
+    "id": "mu7ujyy34ua5y",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:43.659Z"
+  },
+  {
+    "id": "mu7ujyrb8xtd9",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:43.415Z"
+  },
+  {
+    "id": "mu7ujxp31j3wy",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:42.039Z"
+  },
+  {
+    "id": "mu7ujwprg0on3",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:40.767Z"
+  },
+  {
+    "id": "mu7ujvkmhvled",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:39.286Z"
+  },
+  {
+    "id": "mu7ujtvknb0qs",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:37.088Z"
+  },
+  {
+    "id": "mu7ujt2bs23zf",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:36.035Z"
+  },
+  {
+    "id": "mu7ujsjinsvfu",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:35.358Z"
+  },
+  {
+    "id": "mu7ujs7kxvf84",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:34.928Z"
+  },
+  {
+    "id": "mu7ujs11xgi50",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:34.693Z"
+  },
+  {
+    "id": "mu7ujrksco6kz",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:34.108Z"
+  },
+  {
+    "id": "mu7ujr34ds1lq",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:33.472Z"
+  },
+  {
+    "id": "mu7ujqqhybs2n",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:33.017Z"
+  },
+  {
+    "id": "mu7ujndkuh90z",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:28.664Z"
+  },
+  {
+    "id": "mu7ujla3hrjtb",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:25.947Z"
+  },
+  {
+    "id": "mu7ujiectf5yh",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:22.212Z"
+  },
+  {
+    "id": "mu7uji6ssl7ms",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:21.940Z"
+  },
+  {
+    "id": "mu7ujfwjc9vrl",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:18.979Z"
+  },
+  {
+    "id": "mu7ujdetctr95",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:15.749Z"
+  },
+  {
+    "id": "mu7ujb5xgp4qq",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:12.837Z"
+  },
+  {
+    "id": "mu7uj8s2sja3h",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:47:09.746Z"
+  },
+  {
+    "id": "mu7uj6vgyhqrp",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:47:07.276Z"
+  },
+  {
+    "id": "mu7uhxzpc116c",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 8,
+    "date": "2026-09-19T03:46:09.109Z"
+  },
+  {
+    "id": "mu7uga6ppgmyl",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:44:51.601Z"
+  },
+  {
+    "id": "mu7uga0q7fxpm",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T03:44:51.386Z"
+  },
+  {
+    "id": "mu7ug7mj3hwlx",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:44:48.283Z"
+  },
+  {
+    "id": "mu7ug3ufr04ua",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 40,
+    "date": "2026-09-19T03:44:43.383Z"
+  },
+  {
+    "id": "mu7uf8nlml04q",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:44:02.961Z"
+  },
+  {
+    "id": "mu7uf8gg41k6u",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:44:02.704Z"
+  },
+  {
+    "id": "mu7uf7v2gwcx5",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:44:01.934Z"
+  },
+  {
+    "id": "mu7uf7g92x5sl",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:44:01.401Z"
+  },
+  {
+    "id": "mu7uf3hx05j00",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:43:56.277Z"
+  },
+  {
+    "id": "mu7uevg4awqa1",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 8,
+    "date": "2026-09-19T03:43:45.844Z"
+  },
+  {
+    "id": "mu7u5gxzig3py",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:36:27.143Z"
+  },
+  {
+    "id": "mu7u5fnvjf663",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T03:36:25.483Z"
+  },
+  {
+    "id": "mu7u5csthr39k",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:36:21.773Z"
+  },
+  {
+    "id": "mu7u5bw6y4p5u",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:36:20.598Z"
+  },
+  {
+    "id": "mu7u5b0ixh8m7",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T03:36:19.458Z"
+  },
+  {
+    "id": "mu7u593u41mf4",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:36:16.986Z"
+  },
+  {
+    "id": "mu7u57w6d2ytm",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T03:36:15.414Z"
+  },
+  {
+    "id": "mu7u54mlvhu97",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:36:11.181Z"
+  },
+  {
+    "id": "mu7u53nva1ylv",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:36:09.931Z"
+  },
+  {
+    "id": "mu7u52fvu9mz4",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:36:08.347Z"
+  },
+  {
+    "id": "mu7u50qhksmwq",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T03:36:06.137Z"
+  },
+  {
+    "id": "mu7u4yoj4sq3h",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:36:03.475Z"
+  },
+  {
+    "id": "mu7u2qt75bxe4",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:34:19.963Z"
+  },
+  {
+    "id": "mu7u2piww8c1h",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:34:18.296Z"
+  },
+  {
+    "id": "mu7u2md79eu23",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:34:14.203Z"
+  },
+  {
+    "id": "mu7u2kzkrwvbl",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:34:12.416Z"
+  },
+  {
+    "id": "mu7tzmkukalhu",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:31:54.510Z"
+  },
+  {
+    "id": "mu7tyrd5a4dzy",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:31:14.057Z"
+  },
+  {
+    "id": "mu7ty03mfrlvv",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:30:38.722Z"
+  },
+  {
+    "id": "mu7twbf44tfhb",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:29:20.080Z"
+  },
+  {
+    "id": "mu7tw9anxls84",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:29:17.327Z"
+  },
+  {
+    "id": "mu7tw8djae40j",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:29:16.135Z"
+  },
+  {
+    "id": "mu7tw34rgcfxv",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:29:09.339Z"
+  },
+  {
+    "id": "mu7tw2ajakck3",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:29:08.251Z"
+  },
+  {
+    "id": "mu7tvqmqytccs",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:28:53.138Z"
+  },
+  {
+    "id": "mu7tv2g2nme97",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T03:28:21.794Z"
+  },
+  {
+    "id": "mu7tuyjt5v4e0",
+    "userId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "camera_id": "1",
+    "camera_name": "Camara Local (Pruebas)",
+    "zone_name": "Zona segura",
+    "message": "Se detectaron 1 persona invadiendo Zona segura de Camara Local (Pruebas)",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T03:28:16.745Z"
+  },
+  {
+    "id": "mu7re6b423942",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T02:19:14.416Z"
+  },
+  {
+    "id": "mu7re1d9a4u87",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:19:08.013Z"
+  },
+  {
+    "id": "mu7rdliamcc86",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:18:47.458Z"
+  },
+  {
+    "id": "mu7rdho7q79zf",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:18:42.487Z"
+  },
+  {
+    "id": "mu7rdevlwb6to",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:18:38.865Z"
+  },
+  {
+    "id": "mu7rddq6do77y",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:18:37.374Z"
+  },
+  {
+    "id": "mu7rdcsuoh1aa",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:18:36.174Z"
+  },
+  {
+    "id": "mu7rd3wdoh07a",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:18:24.637Z"
+  },
+  {
+    "id": "mu7rc288w5fw9",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T02:17:35.816Z"
+  },
+  {
+    "id": "mu7rbwccf9g89",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:17:28.188Z"
+  },
+  {
+    "id": "mu7rbg2po23vd",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:17:07.105Z"
+  },
+  {
+    "id": "mu7rb7ai4uwk3",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:16:55.722Z"
+  },
+  {
+    "id": "mu7ra31utgel3",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:16:03.570Z"
+  },
+  {
+    "id": "mu7ra1oe5k2e0",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:16:01.790Z"
+  },
+  {
+    "id": "mu7ra1iiifw40",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:16:01.578Z"
+  },
+  {
+    "id": "mu7ra0auqpiyo",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:16:00.006Z"
+  },
+  {
+    "id": "mu7r9r7xggn46",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:15:48.237Z"
+  },
+  {
+    "id": "mu7r9omr65dal",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:15:44.883Z"
+  },
+  {
+    "id": "mu7r9jl45ahtt",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T02:15:38.344Z"
+  },
+  {
+    "id": "mu7r9fxg7dgi1",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:15:33.604Z"
+  },
+  {
+    "id": "mu7r8bqb8q8ow",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:14:41.507Z"
+  },
+  {
+    "id": "mu7r89yag0x0f",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:14:39.202Z"
+  },
+  {
+    "id": "mu7r83gihf9oz",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:14:30.786Z"
+  },
+  {
+    "id": "mu7r7wgsvrf3t",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:14:21.724Z"
+  },
+  {
+    "id": "mu7r7t1rjp1ft",
+    "camera_id": "2",
+    "person_count": 2,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:14:17.295Z"
+  },
+  {
+    "id": "mu7r7qlesesee",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:14:14.115Z"
+  },
+  {
+    "id": "mu7r7eetno6dq",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:13:58.325Z"
+  },
+  {
+    "id": "mu7r74qqbe03x",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:13:45.794Z"
+  },
+  {
+    "id": "mu7r7366msf8n",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:13:43.758Z"
+  },
+  {
+    "id": "mu7r652x3in7q",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T02:12:59.577Z"
+  },
+  {
+    "id": "mu7r5xuc15a5z",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:12:50.196Z"
+  },
+  {
+    "id": "mu7r5t12ow7jf",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:12:43.958Z"
+  },
+  {
+    "id": "mu7r5r6tyic1q",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:12:41.573Z"
+  },
+  {
+    "id": "mu7r5qf9hw7j9",
+    "camera_id": "2",
+    "person_count": 2,
+    "duration_seconds": 4,
+    "date": "2026-09-19T02:12:40.581Z"
+  },
+  {
+    "id": "mu7r5mszqgtoc",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:12:35.891Z"
+  },
+  {
+    "id": "mu7r4kjmtlyco",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:11:46.306Z"
+  },
+  {
+    "id": "mu7r4jgzogann",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:11:44.915Z"
+  },
+  {
+    "id": "mu7r4aoxuvvoa",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:11:33.537Z"
+  },
+  {
+    "id": "mu7r46eica3wg",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:11:27.978Z"
+  },
+  {
+    "id": "mu7r30v5fgo8s",
+    "camera_id": "2",
+    "person_count": 2,
+    "duration_seconds": 4,
+    "date": "2026-09-19T02:10:34.145Z"
+  },
+  {
+    "id": "mu7r2x80cauib",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:10:29.424Z"
+  },
+  {
+    "id": "mu7r2cwaspzwm",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:10:03.082Z"
+  },
+  {
+    "id": "mu7r21e9ahozy",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:09:48.177Z"
+  },
+  {
+    "id": "mu7r0tkvbr7uj",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T02:08:51.391Z"
+  },
+  {
+    "id": "mu7r0l3lgvvx6",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:08:40.401Z"
+  },
+  {
+    "id": "mu7r09j13o693",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 5,
+    "date": "2026-09-19T02:08:25.405Z"
+  },
+  {
+    "id": "mu7r01wp7lts8",
+    "camera_id": "2",
+    "person_count": 2,
+    "duration_seconds": 2,
+    "date": "2026-09-19T02:08:15.529Z"
+  },
+  {
+    "id": "mu7qzzay6rt03",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:08:12.154Z"
+  },
+  {
+    "id": "mu7qzm4faxmiu",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 4,
+    "date": "2026-09-19T02:07:55.071Z"
+  },
+  {
+    "id": "mu7qxog4i1ny0",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:06:24.772Z"
+  },
+  {
+    "id": "mu7qxnrnhf2xr",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:06:23.891Z"
+  },
+  {
+    "id": "mu7qxnjy4bc9i",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:06:23.614Z"
+  },
+  {
+    "id": "mu7qv86u95rjx",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-19T02:04:30.390Z"
+  },
+  {
+    "id": "mu7quph2pr4od",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:04:06.134Z"
+  },
+  {
+    "id": "mu7qu3r57vxla",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 4,
+    "date": "2026-09-19T02:03:37.985Z"
+  },
+  {
+    "id": "mu7qtvy5v3wr0",
+    "camera_id": "2",
+    "person_count": 2,
+    "duration_seconds": 6,
+    "date": "2026-09-19T02:03:27.869Z"
+  },
+  {
+    "id": "mu7qtqurduz56",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T02:03:21.267Z"
+  },
+  {
+    "id": "mu7qtpk6vcw0r",
+    "camera_id": "2",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T02:03:19.590Z"
+  },
+  {
+    "id": "mu7qt0uytx5s4",
+    "camera_id": "2",
+    "person_count": 2,
+    "duration_seconds": 34,
+    "date": "2026-09-19T02:02:47.578Z"
+  },
+  {
+    "id": "mu7nxkat8aeb5",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:42:20.549Z"
+  },
+  {
+    "id": "mu7nxdviert4x",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:42:12.222Z"
+  },
+  {
+    "id": "mu7nxd12tb1zs",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:42:11.126Z"
+  },
+  {
+    "id": "mu7nx8vdbzouw",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:42:05.737Z"
+  },
+  {
+    "id": "mu7nwhkmjiqwv",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:41:30.358Z"
+  },
+  {
+    "id": "mu7nwgrxjjda6",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:41:29.325Z"
+  },
+  {
+    "id": "mu7nw4w34zy6t",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:41:13.923Z"
+  },
+  {
+    "id": "mu7nw3qwu689w",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:41:12.440Z"
+  },
+  {
+    "id": "mu7nw2w5qgv2y",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:41:11.333Z"
+  },
+  {
+    "id": "mu7nvwkkujymd",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:41:03.140Z"
+  },
+  {
+    "id": "mu7nuz4nen8pq",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:40:19.799Z"
+  },
+  {
+    "id": "mu7nsqsdqnen3",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:38:35.677Z"
+  },
+  {
+    "id": "mu7nso4n6g5e4",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:38:32.231Z"
+  },
+  {
+    "id": "mu7nrahjpc5b4",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:37:27.895Z"
+  },
+  {
+    "id": "mu7nr5rsyo1fm",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-19T00:37:21.784Z"
+  },
+  {
+    "id": "mu7nr3eekvpgl",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:37:18.710Z"
+  },
+  {
+    "id": "mu7nr1xn2vm2z",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:37:16.811Z"
+  },
+  {
+    "id": "mu7nqy0yvxgm9",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 8,
+    "date": "2026-09-19T00:37:11.746Z"
+  },
+  {
+    "id": "mu7nqquim77l4",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:37:02.442Z"
+  },
+  {
+    "id": "mu7nqp5n3orbt",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 6,
+    "date": "2026-09-19T00:37:00.251Z"
+  },
+  {
+    "id": "mu7nqk3n4tdk7",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:36:53.699Z"
+  },
+  {
+    "id": "mu7nqj17f3ltg",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:36:52.315Z"
+  },
+  {
+    "id": "mu7nqgz923l8y",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:36:49.653Z"
+  },
+  {
+    "id": "mu7nqfz74pk3d",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:36:48.355Z"
+  },
+  {
+    "id": "mu7nqbz7u6wfb",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:36:43.171Z"
+  },
+  {
+    "id": "mu7nqaedn6p87",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:36:41.125Z"
+  },
+  {
+    "id": "mu7nq8s2ojolc",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 9,
+    "date": "2026-09-19T00:36:39.026Z"
+  },
+  {
+    "id": "mu7npd23hz32x",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:35:57.915Z"
+  },
+  {
+    "id": "mu7npbsy0jysn",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:35:56.290Z"
+  },
+  {
+    "id": "mu7np55o2m8iw",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 8,
+    "date": "2026-09-19T00:35:47.676Z"
+  },
+  {
+    "id": "mu7noy1whm83v",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:35:38.468Z"
+  },
+  {
+    "id": "mu7nowexhyn0m",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:35:36.345Z"
+  },
+  {
+    "id": "mu7novai1zk8n",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 24,
+    "date": "2026-09-19T00:35:34.890Z"
+  },
+  {
+    "id": "mu7noa22tcik9",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:35:07.370Z"
+  },
+  {
+    "id": "mu7no702vnril",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:35:03.410Z"
+  },
+  {
+    "id": "mu7nlrz70b2nh",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:33:10.627Z"
+  },
+  {
+    "id": "mu7nlqmqljryb",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:33:08.882Z"
+  },
+  {
+    "id": "mu7nlpal3wq51",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:33:07.149Z"
+  },
+  {
+    "id": "mu7nlobgpcyhg",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:33:05.884Z"
+  },
+  {
+    "id": "mu7nln71xa3xt",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:33:04.429Z"
+  },
+  {
+    "id": "mu7nlmayo17lk",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 4,
+    "date": "2026-09-19T00:33:03.274Z"
+  },
+  {
+    "id": "mu7nlidy2eror",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:32:58.198Z"
+  },
+  {
+    "id": "mu7nlgu1ybv8q",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 16,
+    "date": "2026-09-19T00:32:56.185Z"
+  },
+  {
+    "id": "mu7nl3lyzfxx4",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:32:39.046Z"
+  },
+  {
+    "id": "mu7nl2bmhi1sz",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:32:37.378Z"
+  },
+  {
+    "id": "mu7nl1jykocws",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:32:36.382Z"
+  },
+  {
+    "id": "mu7nl0e3cghfe",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-19T00:32:34.875Z"
+  },
+  {
+    "id": "mu7nkz9nnx1s5",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:32:33.419Z"
+  },
+  {
+    "id": "mu7nkz4ccdbae",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:32:33.228Z"
+  },
+  {
+    "id": "mu7nky9gcythv",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 8,
+    "date": "2026-09-19T00:32:32.116Z"
+  },
+  {
+    "id": "mu7nkrqxw5v6m",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-19T00:32:23.673Z"
+  },
+  {
+    "id": "mu7ipt8cv5t7f",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:16:20.796Z"
+  },
+  {
+    "id": "mu7ilourfysjw",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-18T22:13:08.499Z"
+  },
+  {
+    "id": "mu7ilml4mxgv0",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-18T22:13:05.560Z"
+  },
+  {
+    "id": "mu7ilhzmcdlnw",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-18T22:12:59.602Z"
+  },
+  {
+    "id": "mu7il9iol176k",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-18T22:12:48.624Z"
+  },
+  {
+    "id": "mu7il4zr28tnx",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-18T22:12:42.759Z"
+  },
+  {
+    "id": "mu7il12mm9rl6",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 8,
+    "date": "2026-09-18T22:12:37.678Z"
+  },
+  {
+    "id": "mu7iktd0g24l3",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-18T22:12:27.684Z"
+  },
+  {
+    "id": "mu7ikql4f2fq1",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:12:24.088Z"
+  },
+  {
+    "id": "mu7ikm0gwuon6",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 12,
+    "date": "2026-09-18T22:12:18.160Z"
+  },
+  {
+    "id": "mu7ikbqx60752",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:12:04.857Z"
+  },
+  {
+    "id": "mu7ik9zxgj8qv",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 19,
+    "date": "2026-09-18T22:12:02.589Z"
+  },
+  {
+    "id": "mu7ijtn3olvkd",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:11:41.391Z"
+  },
+  {
+    "id": "mu7ijsmlivqzs",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:11:40.077Z"
+  },
+  {
+    "id": "mu7ig04vlq099",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:08:43.183Z"
+  },
+  {
+    "id": "mu7ifx1c3cvea",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:08:39.168Z"
+  },
+  {
+    "id": "mu7ifuirz5wyq",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 139,
+    "date": "2026-09-18T22:08:35.907Z"
+  },
+  {
+    "id": "mu7ic2c65gt7z",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 6,
+    "date": "2026-09-18T22:05:39.414Z"
+  },
+  {
+    "id": "mu7ibx4v9f5s2",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:05:32.671Z"
+  },
+  {
+    "id": "mu7ibrk9ozxzs",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-18T22:05:25.449Z"
+  },
+  {
+    "id": "mu7ibpjy42jdq",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-18T22:05:22.846Z"
+  },
+  {
+    "id": "mu7ibjplqx50o",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:05:15.273Z"
+  },
+  {
+    "id": "mu7ibioqw6owh",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:05:13.946Z"
+  },
+  {
+    "id": "mu7ibhr7xyeaq",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 175,
+    "date": "2026-09-18T22:05:12.739Z"
+  },
+  {
+    "id": "mu7i7p4g9s86i",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-18T22:02:15.664Z"
+  },
+  {
+    "id": "mu7i7lktv1not",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:02:11.069Z"
+  },
+  {
+    "id": "mu7i7kp3tzsy3",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:02:09.927Z"
+  },
+  {
+    "id": "mu7i7jn4k61ev",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 0,
+    "date": "2026-09-18T22:02:08.560Z"
+  },
+  {
+    "id": "mu7i7ikoleh8h",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 1,
+    "date": "2026-09-18T22:02:07.176Z"
+  },
+  {
+    "id": "mu7i77e2nm5s2",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 6,
+    "date": "2026-09-18T22:01:52.682Z"
+  },
+  {
+    "id": "mu7i72jig1ipy",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 2,
+    "date": "2026-09-18T22:01:46.398Z"
+  },
+  {
+    "id": "mu7i5t8ozj3te",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 4,
+    "date": "2026-09-18T22:00:47.688Z"
+  },
+  {
+    "id": "mu7i3gypmyh84",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 7,
+    "date": "2026-09-18T21:58:58.465Z"
+  },
+  {
+    "id": "mu7i2w1utxhbb",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 25,
+    "date": "2026-09-18T21:58:31.362Z"
+  },
+  {
+    "id": "mu7hkojox5xxr",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 12,
+    "date": "2026-09-18T21:44:21.828Z"
+  },
+  {
+    "id": "mu7e8s7jt8j36",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 18,
+    "date": "2026-09-18T20:11:07.855Z"
+  },
+  {
+    "id": "mu6awgfy78k5c",
+    "camera_id": "1",
+    "person_count": 1,
+    "duration_seconds": 3,
+    "date": "2026-09-18T01:49:47.710Z"
+  },
+  {
+    "id": "mu6awdh10fstk",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 88,
+    "date": "2026-09-18T01:49:43.861Z"
+  },
+  {
+    "id": "mu6augzalomce",
+    "camera_id": "1",
+    "person_count": 2,
+    "duration_seconds": 208,
+    "date": "2026-09-18T01:48:15.094Z"
+  }
+]

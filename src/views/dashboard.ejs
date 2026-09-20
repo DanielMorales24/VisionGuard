@@ -1,0 +1,88 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+
+<div class="page-header">
+  <div>
+    <p class="eyebrow">Centro de vigilancia</p>
+    <h1>Tu espacio bajo control</h1>
+    <p class="page-subtitle">Observa tus cámaras y recibe señales sólo cuando una zona importa.</p>
+  </div>
+  <div id="zone-status" class="zone-status zone-safe"><span class="state-led"></span><span>Zona Segura</span></div>
+</div>
+
+<div class="dashboard-grid">
+  <section class="panel video-panel">
+    <div class="panel-header">
+      <div><p class="panel-kicker">Monitoreo activo</p><h2>Video en vivo</h2></div>
+      <label class="camera-picker"><span>Cámara</span><select id="camera-select" aria-label="Seleccionar cámara">
+        <% cameras.forEach(function(cam) { %><option value="<%= cam.id %>"><%= cam.name %></option><% }) %>
+      </select></label>
+    </div>
+    <div class="video-wrapper">
+      <img id="camera-feed" src="/images/camera-feed.png" alt="Sin señal de cámara" data-live="false" />
+      <canvas id="zone-canvas"></canvas>
+      <div id="rec-badge" class="rec-badge" hidden><span class="rec-dot"></span>REC</div>
+      <div id="feed-offline-badge" class="feed-offline-badge">SIN SEÑAL</div>
+      <div class="intruder-count-overlay"><span id="intruder-count">0</span><span class="intruder-label">personas</span><span id="zone-count-badge" class="zone-count-badge" hidden><span id="zone-count">0</span> en zona</span></div>
+      <div id="armed-pill" class="armed-pill armed-off">Desarmado</div>
+    </div>
+    <p id="zone-hint" class="zone-hint">Agrega una cámara y dibuja una zona para concentrar las alertas donde realmente importan.</p>
+    <div class="video-controls">
+      <div class="control-group">
+        <button id="btn-start" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7V5Z" /></svg><span>Iniciar vigilancia</span></button>
+        <button id="btn-stop" class="btn btn-secondary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1" /></svg><span>Detener</span></button>
+      </div>
+      <div class="control-group">
+        <button id="btn-draw-zone" class="btn btn-secondary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6M4 4v6M20 20h-6M20 20v-6M4 20h6M4 20v-6M20 4h-6M20 4v6" /></svg><span>Dibujar zona</span></button>
+        <button id="btn-clear-zone" class="btn btn-secondary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5 19 19M19 5 5 19" /></svg><span>Borrar zona</span></button>
+      </div>
+      <div class="control-group">
+        <button id="btn-arm" class="btn btn-secondary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg><span>Armar</span></button>
+        <button id="btn-silence" class="btn btn-danger btn-outline"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6l-5 4H4ZM18 9l3 3-3 3" /></svg><span>Silenciar alarma</span></button>
+      </div>
+    </div>
+  </section>
+
+  <div class="dashboard-side">
+    <section class="panel telemetry-panel">
+      <div class="panel-header"><div><p class="panel-kicker">Lecturas del sistema</p><h2>Telemetría en tiempo real</h2></div><span class="live-mark"><span class="state-led"></span>Live</span></div>
+      <dl class="telemetry-grid">
+        <div class="telemetry-card telemetry-state"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v9m0 0 4-4m-4 4-4-4M5 14a7 7 0 1 0 14 0" /></svg>Estado</dt><dd id="tm-status">En espera</dd></div>
+        <div class="telemetry-card"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h5" /></svg>Modelo</dt><dd id="tm-model">—</dd></div>
+        <div class="telemetry-card"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0M7 12a5 5 0 0 1 10 0M10 12a2 2 0 0 1 4 0" /></svg>Conexión</dt><dd id="tm-conn">Conectando…</dd></div>
+        <div class="telemetry-card"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V9m5 10V5m5 14v-7m5 7V3" /></svg>Personas total</dt><dd id="tm-total">0</dd></div>
+        <div class="telemetry-card telemetry-zone"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6M4 4v6M20 20h-6M20 20v-6M4 20h6M4 20v-6M20 4h-6M20 4v6" /></svg>En zona</dt><dd id="tm-zone">0</dd></div>
+        <div class="telemetry-card"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" /><path d="M12 8v5l3 2" /></svg>Dwell</dt><dd id="tm-dwell">0.0 s</dd></div>
+        <div class="telemetry-card"><dt><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17h16M4 12h10M4 7h6" /></svg>FPS</dt><dd id="tm-fps">—</dd></div>
+      </dl>
+      <p class="disclaimer-box">VisionGuard detecta presencia mediante YOLOv8 + MediaPipe. Es un sistema de apoyo: no reemplaza vigilancia física, cámaras certificadas ni personal de seguridad.</p>
+    </section>
+
+    <aside class="panel alerts-panel">
+      <div class="panel-header"><div><p class="panel-kicker">Actividad reciente</p><h2>Últimas alertas</h2></div><a href="/alerts" class="link-small">Ver todas <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-5 5 5-5 5" /></svg></a></div>
+      <ul id="recent-alerts-list" class="alerts-list">
+        <% if (recentAlerts.length === 0) { %><li class="alert-empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4a7 7 0 0 1 7 7v3l2 3H3l2-3v-3a7 7 0 0 1 7-7ZM9 20h6" /></svg><span>Todo tranquilo por aquí.</span><small>Aún no hay alertas registradas.</small></li><% } %>
+        <% recentAlerts.slice(0, 2).forEach(function(a) { %><li class="alert-item"><span class="alert-item-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v5c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-3Z" /><path d="m9 12 2 2 4-4" /></svg></span><span class="alert-camera"><%= a.camera_name || a.camera_id %></span><span class="alert-count"><%= a.message || `${a.person_count} personas detectadas` %></span><span class="alert-date"><%= new Date(a.date).toLocaleString('es-HN') %></span></li><% }) %>
+      </ul>
+    </aside>
+  </div>
+</div>
+
+<script>
+  window.__VISIONGUARD__ = { cameras: <%- JSON.stringify(cameras) %> };
+  (function () {
+    const hasCameras = window.__VISIONGUARD__.cameras.length > 0;
+    if (hasCameras) return;
+    ['btn-start', 'btn-stop', 'btn-draw-zone', 'btn-clear-zone', 'btn-arm'].forEach(function (id) {
+      const el = document.getElementById(id);
+      if (el) el.disabled = true;
+    });
+    const hint = document.getElementById('zone-hint');
+    if (hint) hint.textContent = 'No hay cámaras configuradas. Agrega una desde Mis cámaras para ver el feed en vivo aquí.';
+  })();
+</script>
+<script src="/js/camera-stream.js"></script>
+<script src="/js/zone-drawing.js"></script>
+<script src="/js/dashboard.js"></script>
+
+<%- include('partials/footer') %>

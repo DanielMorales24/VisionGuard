@@ -1,0 +1,53 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+
+<div class="page-header">
+  <h1>Mis alertas</h1>
+  <button id="btn-clear-alerts" class="btn btn-danger"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M10 11v6m4-6v6M9 7V4h6v3m-9 0 1 13h10l1-13" /></svg><span>Limpiar historial</span></button>
+</div>
+
+<section class="stats-row">
+  <div class="stat-card">
+    <span class="stat-value"><%= stats.total_alerts %></span>
+    <span class="stat-label">Alertas totales</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value"><%= stats.total_intrusos_acumulados %></span>
+    <span class="stat-label">Intrusos acumulados</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value"><%= stats.ultima_alerta ? new Date(stats.ultima_alerta.date).toLocaleString('es-HN') : '—' %></span>
+    <span class="stat-label">Última alerta</span>
+  </div>
+</section>
+
+<section class="panel">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Cámara</th>
+        <th>Descripción</th>
+        <th>Intrusos</th>
+        <th>Duración</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% alerts.forEach(function(a) { %>
+        <tr>
+          <td><%= new Date(a.date).toLocaleString('es-HN') %></td>
+          <td><%= a.camera_name || a.camera_id %></td>
+          <td><%= a.message || `${a.person_count} personas detectadas` %></td>
+          <td><%= a.person_count %></td>
+          <td><%= a.duration_seconds %>s</td>
+        </tr>
+      <% }) %>
+      <% if (alerts.length === 0) { %>
+        <tr><td colspan="5" class="alert-empty">Sin alertas registradas todavía.</td></tr>
+      <% } %>
+    </tbody>
+  </table>
+</section>
+
+<script src="/js/dashboard.js"></script>
+<%- include('partials/footer') %>

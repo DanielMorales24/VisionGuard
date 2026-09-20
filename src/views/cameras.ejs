@@ -1,0 +1,75 @@
+<%- include('partials/header') %>
+<%- include('partials/sidebar') %>
+
+<div class="page-header">
+  <h1>Mis cámaras</h1>
+</div>
+
+<section class="panel">
+  <div class="panel-header">
+    <h2>Agregar cámara</h2>
+  </div>
+  <form id="add-camera-form" class="form-grid">
+    <input type="text" name="id" placeholder="ID (ej. cam-01)" required />
+    <input type="text" name="name" placeholder="Nombre (ej. Entrada principal)" />
+    <input type="text" name="location" placeholder="Ubicación" />
+    <input type="text" name="url" placeholder="URL completa RTSP/HTTP o ruta de video" />
+    <details class="rtsp-details">
+      <summary>Construir URL RTSP por campos</summary>
+      <div class="rtsp-fields">
+        <label>Protocolo<select name="rtspProtocol"><option value="rtsp">rtsp</option><option value="rtsps">rtsps</option></select></label>
+        <label>Host o IP<input type="text" name="rtspHost" placeholder="ipvmdemo.dyndns.org" /></label>
+        <label>Puerto<input type="number" name="rtspPort" placeholder="5541" min="1" max="65535" /></label>
+        <label>Usuario<input type="text" name="rtspUsername" placeholder="demo" /></label>
+        <label>Contraseña<input type="password" name="rtspPassword" placeholder="demo" /></label>
+        <label>Ruta<input type="text" name="rtspPath" placeholder="/onvif-media/media.amp" /></label>
+        <label class="rtsp-query">Parámetros<input type="text" name="rtspQuery" placeholder="profile=profile_1_h264&sessiontimeout=60&streamtype=unicast" /></label>
+      </div>
+      <p class="form-help">Si completas Host o IP, estos campos reemplazan la URL completa.</p>
+    </details>
+    <button type="submit" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg><span>Agregar cámara</span></button>
+  </form>
+</section>
+
+<section class="panel">
+  <div class="panel-header">
+    <h2>Cámaras configuradas</h2>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Ubicación</th>
+        <th>Fuente</th>
+        <th>Estado</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="cameras-tbody">
+      <% cameras.forEach(function(cam) { %>
+        <tr data-camera-id="<%= cam.id %>">
+          <td><%= cam.id %></td>
+          <td><%= cam.name %></td>
+          <td><%= cam.location %></td>
+          <td class="mono"><%= cam.url %></td>
+          <td><span class="badge <%= cam.running ? 'badge-on' : 'badge-off' %>"><%= cam.running ? 'Activa' : 'Detenida' %></span></td>
+          <td><button class="btn btn-small btn-danger btn-delete-camera"><svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M10 11v6m4-6v6M9 7V4h6v3m-9 0 1 13h10l1-13" /></svg><span>Eliminar</span></button></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</section>
+
+<section class="panel">
+  <div class="panel-header">
+    <h2>Estado en tiempo real</h2>
+  </div>
+  <div id="device-grid" class="device-grid">
+    <p class="device-empty">Cargando estado de dispositivos…</p>
+  </div>
+</section>
+
+<script src="/js/camera-status.js"></script>
+<script src="/js/dashboard.js"></script>
+<%- include('partials/footer') %>

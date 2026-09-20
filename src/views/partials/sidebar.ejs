@@ -1,0 +1,25 @@
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-logo-frame"><img class="brand-logo" src="/images/VisionGuard-Logo.png" alt="" /></span>
+        <span class="brand-name">VisionGuard</span>
+      </div>
+      <nav class="nav">
+        <a href="/" class="nav-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4v9ZM14 20h6v-9h-6v9ZM14 8h6V4h-6v4ZM4 20h6v-3H4v3Z" /></svg><span>Inicio</span></a>
+        <a href="/cameras" class="nav-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2ZM8 7l1.5-3h5L16 7M12 11a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" /></svg><span>Mis cámaras</span></a>
+        <a href="/alerts" class="nav-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4a7 7 0 0 1 7 7v3l2 3H3l2-3v-3a7 7 0 0 1 7-7ZM9 20h6" /></svg><span>Mis alertas</span></a>
+        <a href="/settings" class="nav-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1" /><circle cx="12" cy="12" r="3" /></svg><span>Ajustes</span></a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="sidebar-user"><strong><%= user.name %></strong><span><%= user.accountType === 'empresa' ? 'Empresa' : 'Cuenta personal' %></span></div>
+        <form method="post" action="/logout"><button type="submit" class="logout-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 5H5v14h5M14 8l4 4-4 4M9 12h9" /></svg><span>Cerrar sesión</span></button></form>
+        <div class="sidebar-conn">
+          <span id="connection-indicator" class="status-dot status-unknown"></span>
+          <span id="connection-text">Conectando...</span>
+        </div>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+          <span id="theme-toggle-icon" class="theme-icon" aria-hidden="true"></span>
+          <span id="theme-toggle-label">Modo oscuro</span>
+        </button>
+      </div>
+    </aside>
+    <main class="content">

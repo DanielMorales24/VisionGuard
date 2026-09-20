@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Camara Local (Pruebas)",
+    "url": "0",
+    "location": "Local",
+    "running": false,
+    "createdAt": "2026-09-18T20:59:50.643Z",
+    "ownerId": "2f36a407-1545-4635-8c5b-654b5764e34f"
+  },
+  {
+    "id": "2",
+    "ownerId": "2f36a407-1545-4635-8c5b-654b5764e34f",
+    "name": "Camara Principal",
+    "url": "rtsp://aquaguard:aquaguard2026@177.10.187.114:8554/CAM_PISCINA_PRINCIPAL",
+    "location": "San Pedro Sula",
+    "running": false,
+    "createdAt": "2026-09-19T03:59:33.294Z"
+  }
+]
